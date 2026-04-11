@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='footer.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <footer class="stockometer-footer-root-container-unique">
+
+  <div class="stockometer-footer-info-box-unique" aria-label="Information Notice">
+    <div class="stockometer-footer-info-icon-unique" aria-hidden="true">i</div>
+    <p class="stockometer-footer-info-text-desktop-unique">
+      This platform makes no representations regarding the accuracy, completeness, or timeliness of the information provided.
+      Users are advised to independently verify all data before making any financial or investment decisions.
+      This platform is not a registered investment adviser, broker-dealer, or financial institution and does not provide
+      regulated financial services in any jurisdiction.
+      <a href="/terms-and-conditions" class="stockometer-footer-terms-link-unique">Terms and Conditions</a>.
+    </p>
+    <p class="stockometer-footer-info-text-mobile-unique">
+      No representations are made regarding accuracy, completeness, or timeliness; users should independently verify information before making financial decisions, and this platform does not provide regulated financial services in any jurisdiction.
+      <a href="/terms-and-conditions" class="stockometer-footer-terms-link-unique">Terms and Conditions</a>.
+    </p>
+  </div>
+
+  <div class="stockometer-footer-top-layout-wrapper-unique">
+    
+    <div class="stockometer-footer-logo-circle-container-unique">
+      <img src="{{ url_for('static', filename='src/logo2-cropped.png') }}" alt="Stockometer Logo">
+    </div>
+
+    <div class="stockometer-footer-divider-line-unique"></div>
+
+    <div class="stockometer-footer-creator-block-unique">
+      <div class="stockometer-footer-madeby-text-unique">MADE BY</div>
+      <div class="stockometer-footer-creator-name-unique" data-text="ALV!N">ALV!N</div>
+    </div>
+
+  </div>
+
+  <div class="stockometer-footer-bottom-branding-wrapper-unique">
+    <h1 id="stockometer-brand-h1">STOCKOMETER</h1>
+  </div>
+
+  <div class="stockometer-footer-copyright-unique">
+    &copy; <span id="footer-year"></span> Stockometer. All rights reserved.
+  </div>
+
+</footer>
+<script>
+(function () {
+    function fitBrandText() {
+        var h1 = document.getElementById('stockometer-brand-h1');
+        if (!h1) return;
+
+        var wrapper = h1.parentElement;
+
+        // Reset for measurement
+        h1.style.fontSize = '100px';
+
+        // Measure
+        var availableWidth = wrapper.clientWidth; // clientWidth excludes padding
+        var textWidth = h1.scrollWidth;
+
+        // Calculate scale - Use 1.0 for absolute edges
+        var scale = (availableWidth / textWidth) * 1.0;
+
+        h1.style.fontSize = (100 * scale) + 'px';
+    }
+
+    // --- 2. Delayed Glitch Logic ---
+    function initGlitchOnScroll() {
+        const footer = document.querySelector('.stockometer-footer-root-container-unique');
+        const creatorName = document.querySelector('.stockometer-footer-creator-name-unique');
+        
+        if (!footer || !creatorName) return;
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Wait 0.1 second after the footer appears
+                    setTimeout(() => {
+                        creatorName.classList.add('is-glitching');
+
+                        // Glitch for 2 seconds, then stop
+                        setTimeout(() => {
+                            creatorName.classList.remove('is-glitching');
+                        }, 2000);
+                        
+                    }, 100); 
+
+                    observer.unobserve(footer);
+                }
+            });
+        }, { threshold: 0.85 }); // Trigger when 85% of footer is visible
+
+        observer.observe(footer);
+    }
+
+    window.addEventListener('load', () => {
+        // Set the current year
+        const yearElement = document.getElementById('footer-year');
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear();
+        }
+
+        fitBrandText();
+        initGlitchOnScroll();
+    });
+    
+    window.addEventListener('resize', fitBrandText);
+})();
+</script>
+</body>
+</html>
