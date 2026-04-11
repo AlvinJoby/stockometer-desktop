@@ -393,4 +393,4 @@ def analyze():
         return "Unable to analyze the requested symbol right now.", 500
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
