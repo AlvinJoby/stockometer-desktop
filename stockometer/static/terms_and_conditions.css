@@ -1,0 +1,142 @@
+:root {
+  --bg: #ffffff;
+  --ink: #0f172a;
+  --muted: #4b5563;
+  --line: #dbe6f6;
+  --accent: #2f6fed;
+  --accent-soft: #e8f0ff;
+  --highlight: #0b5bd3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.7;
+}
+
+.page {
+  width: min(1020px, 100%);
+  margin: 0 auto;
+  padding: 34px 18px 58px;
+}
+
+.brand-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.brand {
+  margin: 0;
+  color: #0b1220;
+  font-size: clamp(32px, 5vw, 54px);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 20px;
+  line-height: 1;
+}
+
+.brand::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 74%;
+  border-radius: 2px;
+  background: var(--accent);
+}
+
+.head {
+  text-align: center;
+  padding: 8px 0 22px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(27px, 4.2vw, 42px);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #111827;
+}
+
+.intro {
+  margin: 14px auto 0;
+  max-width: 920px;
+  font-size: clamp(14px, 2.2vw, 17px);
+  color: #334155;
+}
+
+.intro strong {
+  color: var(--highlight);
+  font-weight: 800;
+}
+
+.terms-list {
+  margin: 0;
+  padding-left: 24px;
+  list-style-type: circle;
+  display: grid;
+  gap: 16px;
+}
+
+.terms-list li {
+  font-size: clamp(14px, 2.2vw, 16px);
+  color: #1f2937;
+  padding-left: 4px;
+}
+
+.terms-list li::marker {
+  color: var(--accent);
+  font-size: 1.08em;
+}
+
+.key {
+  color: #0f3f98;
+  font-weight: 800;
+  background: var(--accent-soft);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.note {
+  margin-top: 26px;
+  border-top: 1px solid var(--line);
+  padding-top: 15px;
+  color: var(--muted);
+  font-size: clamp(13px, 2.1vw, 15px);
+}
+
+.home-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(47, 111, 237, 0.38);
+}
+
+.home-link:hover {
+  color: #1f56c6;
+  border-bottom-color: #1f56c6;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 24px 14px 40px;
+  }
+
+  .terms-list {
+    gap: 14px;
+    padding-left: 20px;
+  }
+}

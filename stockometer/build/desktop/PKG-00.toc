@@ -1,0 +1,386 @@
+('C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+ 'File\\stockometer-desktop\\build\\desktop\\desktop.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\build\\desktop\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\build\\desktop\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\build\\desktop\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\build\\desktop\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\build\\desktop\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\build\\desktop\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('desktop',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\desktop.py',
+   'PYSOURCE'),
+  ('python314.dll',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll',
+   'BINARY'),
+  ('_zstd.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_zstd.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp314-win_amd64.pyd',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\markupsafe\\_speedups.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\alvin\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('static\\404.css',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\404.css',
+   'DATA'),
+  ('static\\breakout.css',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\breakout.css',
+   'DATA'),
+  ('static\\breakout.js',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\breakout.js',
+   'DATA'),
+  ('static\\footer.css',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\footer.css',
+   'DATA'),
+  ('static\\index.css',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\index.css',
+   'DATA'),
+  ('static\\index.js',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\index.js',
+   'DATA'),
+  ('static\\ix.css',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\ix.css',
+   'DATA'),
+  ('static\\ix.js',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\ix.js',
+   'DATA'),
+  ('static\\main.css',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\main.css',
+   'DATA'),
+  ('static\\main.js',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\main.js',
+   'DATA'),
+  ('static\\src\\loader.css',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\src\\loader.css',
+   'DATA'),
+  ('static\\src\\logo1-cropped.png',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\src\\logo1-cropped.png',
+   'DATA'),
+  ('static\\src\\logo1.png',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\src\\logo1.png',
+   'DATA'),
+  ('static\\src\\logo2-cropped.png',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\src\\logo2-cropped.png',
+   'DATA'),
+  ('static\\terms_and_conditions.css',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\static\\terms_and_conditions.css',
+   'DATA'),
+  ('templates\\404.html',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\templates\\404.html',
+   'DATA'),
+  ('templates\\footer.html',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\templates\\footer.html',
+   'DATA'),
+  ('templates\\index.html',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\templates\\index.html',
+   'DATA'),
+  ('templates\\main.html',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\templates\\main.html',
+   'DATA'),
+  ('templates\\terms_and_conditions.html',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\templates\\terms_and_conditions.html',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\REQUESTED',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\REQUESTED',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\entry_points.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\entry_points.txt',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\top_level.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\top_level.txt',
+   'DATA'),
+  ('werkzeug-3.1.6.dist-info\\RECORD',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\werkzeug-3.1.6.dist-info\\RECORD',
+   'DATA'),
+  ('click-8.3.1.dist-info\\REQUESTED',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\RECORD',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\RECORD',
+   'DATA'),
+  ('werkzeug-3.1.6.dist-info\\METADATA',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\werkzeug-3.1.6.dist-info\\METADATA',
+   'DATA'),
+  ('werkzeug-3.1.6.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\werkzeug-3.1.6.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\METADATA',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\METADATA',
+   'DATA'),
+  ('click-8.3.1.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\METADATA',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\METADATA',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\INSTALLER',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\REQUESTED',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\REQUESTED',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\REQUESTED',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\WHEEL',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\RECORD',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\RECORD',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\WHEEL',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\WHEEL',
+   'DATA'),
+  ('werkzeug-3.1.6.dist-info\\REQUESTED',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\werkzeug-3.1.6.dist-info\\REQUESTED',
+   'DATA'),
+  ('click-8.3.1.dist-info\\WHEEL',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\WHEEL',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\WHEEL',
+   'DATA'),
+  ('click-8.3.1.dist-info\\INSTALLER',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('click-8.3.1.dist-info\\METADATA',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\METADATA',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\RECORD',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\RECORD',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\INSTALLER',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('werkzeug-3.1.6.dist-info\\WHEEL',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\werkzeug-3.1.6.dist-info\\WHEEL',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\METADATA',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\METADATA',
+   'DATA'),
+  ('werkzeug-3.1.6.dist-info\\INSTALLER',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\werkzeug-3.1.6.dist-info\\INSTALLER',
+   'DATA'),
+  ('click-8.3.1.dist-info\\RECORD',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\venv\\Lib\\site-packages\\click-8.3.1.dist-info\\RECORD',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\alvin\\OneDrive\\Documents\\Developer '
+   'File\\stockometer-desktop\\build\\desktop\\base_library.zip',
+   'DATA')],
+ 'python314.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

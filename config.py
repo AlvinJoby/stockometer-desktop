@@ -1,2 +1,0 @@
-symbol=None
-data=None
