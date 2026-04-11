@@ -1,8 +1,7 @@
 import threading
-import webbrowser
-import time
 import sys
 import os
+import webview
 
 # --- define base path FIRST ---
 if getattr(sys, 'frozen', False):
@@ -23,11 +22,26 @@ sys.path.insert(0, os.path.join(base_path, "stockometer"))
 from stockometer.app import app
 
 
-def open_browser():
-    time.sleep(2)
-    webbrowser.open("http://127.0.0.1:5050")
+def start_flask():
+    app.run(
+        host="127.0.0.1",
+        port=5050,
+        debug=False,
+        use_reloader=False
+    )
 
 
 if __name__ == "__main__":
-    threading.Thread(target=open_browser).start()
-    app.run(debug=True, use_reloader=False,port=5050)
+    # start flask in background
+    threading.Thread(target=start_flask, daemon=True).start()
+
+    # create native desktop window
+    webview.create_window(
+        "Stockometer",
+        "http://127.0.0.1:5050",
+        width=1200,
+        height=800
+    )
+
+    # start GUI loop
+    webview.start()

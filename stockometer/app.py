@@ -1,4 +1,4 @@
-print("🔥 app.py STARTED")
+print("app.py STARTED")
 from flask import Flask, jsonify, render_template, request
 from stockometer.validation import validateInput
 from stockometer.retrieveData import retrieve_data, retrieve_ltp, retrieve_companyInfo, normalize_columns, return_timeframePeriod
@@ -23,7 +23,7 @@ import traceback
 
 import os
 
-print("🔥 imports DONE")
+print("imports DONE")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -239,18 +239,18 @@ def _is_equity_symbol(ticker_info):
 
     return True
 
-print("🔥 routes registering")
+print("routes registering")
 
 @app.errorhandler(Exception)
 def handle_exception(e):
-    print("\n🔥🔥🔥 FULL ERROR TRACEBACK 🔥🔥🔥\n")
+    print("\nFULL ERROR TRACEBACK\n")
     traceback.print_exc()
     return "CRASHED. Check terminal.", 500
 
 
 @app.route('/')
 def home():
-    print("🔥 HOME ROUTE HIT")
+    print("HOME ROUTE HIT")
     return render_template(
         "index.html",
         error_message=None,
