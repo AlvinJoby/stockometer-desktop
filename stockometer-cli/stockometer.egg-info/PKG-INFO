@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: stockometer
+Version: 0.1.1
+Summary: CLI wrapper that auto-updates exe from GitHub
+Author: ALV!N
+Requires-Dist: requests

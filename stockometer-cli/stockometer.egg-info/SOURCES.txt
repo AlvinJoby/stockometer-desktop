@@ -1,0 +1,12 @@
+pyproject.toml
+stockometer/__init__.py
+stockometer/config.py
+stockometer/main.py
+stockometer/updater.py
+stockometer/utils.py
+stockometer.egg-info/PKG-INFO
+stockometer.egg-info/SOURCES.txt
+stockometer.egg-info/dependency_links.txt
+stockometer.egg-info/entry_points.txt
+stockometer.egg-info/requires.txt
+stockometer.egg-info/top_level.txt

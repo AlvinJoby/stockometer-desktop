@@ -1,0 +1,2 @@
+[console_scripts]
+stockometer = stockometer.main:main

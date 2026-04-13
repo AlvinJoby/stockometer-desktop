@@ -1,0 +1,9 @@
+[project]
+name = "stockometer"
+version = "0.1.1"
+description = "CLI wrapper that auto-updates exe from GitHub"
+authors = [{name = "ALV!N"}]
+dependencies = ["requests"]
+
+[project.scripts]
+stockometer = "stockometer.main:main"
